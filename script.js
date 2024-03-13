@@ -3,16 +3,16 @@ var mainn = document.querySelector(".main");
 
 var arr = [
   {
-    dp: "Screenshot (1).png",
-    story: "6448ca86508654220671ad2d.jpg",
+    dp: "download.webp",
+    story: "6448ca86508654220671ad2d.webp",
   },
   {
-    dp: "Screenshot (2).png",
-    story: "64426c32508654fb0f7168bd.jpg",
+    dp: "Screenshot (2).webp",
+    story: "64426c32508654fb0f7168bd.webp",
   },
   {
-    dp: "Screenshot (271).png",
-    story: "6448ca86508654220671ad2d.jpg",
+    dp: "Screenshot (1).webp",
+    story: "6448ca86508654220671ad2d.webp",
   },
 ];
 

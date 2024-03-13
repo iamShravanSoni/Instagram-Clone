@@ -1,9 +1,15 @@
 body {
   margin: 0;
   padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background: palevioletred;
 }
 
@@ -15,7 +21,7 @@ body {
 }
 
 #card {
-  margin-top: 80px;
+  margin-top: 60px;
   height: 480px;
   width: 330px;
   background: #f0ffff;
@@ -52,8 +58,10 @@ body {
   height: 100%;
   width: 100%;
   cursor: pointer;
-  object-fit: cover;
-  object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 
 #full-screen {
